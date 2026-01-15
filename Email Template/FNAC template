@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="margin:0; padding:0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
+<table cellpadding="0" cellspacing="0" style="background-color: #f4f4f4;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table cellpadding="0" cellspacing="0" style="background-color: #ffffff; margin: 20px auto; border-radius: 8px; padding: 20px;" width="600">
+				<tbody>
+					<tr>
+						<td align="center" style="padding: 20px 0;">
+						<table cellpadding="0" cellspacing="0" style="margin: 0 auto 10px auto;">
+							<tbody>
+								<tr>
+									<td style="padding-right: 20px; vertical-align: middle;" valign="middle" align="center">
+										<img alt="Logo FNAC" src="https://raw.githubusercontent.com/Todoro22/test/main/Fnac_Logo.svg.png" style="display:block; height:90px; width:auto;" height="120" />
+									</td>
+<!-- Mettre le logo de votre entreprises à cette emplacement-->
+								</tr>
+							</tbody>
+						</table>
+
+						<h2 style="color: #333333;">🎁 FNAC&nbsp;x [Nom de l'entreprise]</h2>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding: 0 30px;">
+						<p style="font-size: 16px; color: #333333;">Bonjour {{.FirstName}},</p>
+
+						<p style="font-size: 16px; color: #333333;">Chez FNAC, nous aimons c&eacute;l&eacute;brer les partenariats qui font sens. &Agrave; l&rsquo;occasion de notre collaboration avec [Nom de l'entreprise], nous avons souhait&eacute; remercier l&rsquo;ensemble de ses collaborateurs pour leur implication et leur dynamisme.</p>
+
+						<p style="font-size: 16px; color: #333333;">C&rsquo;est pourquoi nous avons le plaisir de vous offrir un ch&egrave;que-cadeau FNAC de 100 &euro;, valable sur l&rsquo;ensemble de nos magasins et sur fnac.com :</p>
+
+						<p style="text-align: center; margin: 30px 0;"><a href="{{.URL}}" style="background-color: #0052cc; color: #ffffff; text-decoration: none; padding: 14px 25px; border-radius: 5px; font-weight: bold; display: inline-block;">🎉 Je r&eacute;cup&egrave;re&nbsp;mon ch&egrave;que-cadeau </a></p>
+
+						<p style="font-size: 16px; color: #333333;">Cette offre est valable jusqu&rsquo;au <strong>[Date]</strong> et r&eacute;serv&eacute;e exclusivement aux collaborateurs d&rsquo;.[Nom de l'entreprise ]</p>
+
+						<p style="font-size: 16px; color: #333333;">Merci pour votre engagement. Nous esp&eacute;rons que ce cadeau vous fera plaisir !</p>
+
+						<p style="font-size: 16px; color: #333333;">&Agrave; tr&egrave;s bient&ocirc;t,<br />
+						<strong>L&rsquo;&eacute;quipe FNAC&nbsp;x [Nom de l'entrepise]</strong></p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding: 20px 0;">
+						<p style="font-size: 12px; color: #999999;">Ce message vous est adress&eacute; dans le cadre d&rsquo;une communication de la Fnac en partenariat avec [Nom de l'entreprise]</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
